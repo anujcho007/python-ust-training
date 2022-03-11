@@ -1,0 +1,7 @@
+from machine import Pin
+import time
+Pin.setmode(GPIO.BCM)
+Pin.setwarnings(False)
+Pin.setup(2,GPIO.OUT)
+Pin.output(2,GPIO.HIGH)
+print("buzzer on")
